@@ -1,0 +1,77 @@
+/* /=============== FONTS ===============// */
+
+@font-face {
+  font-family: "font-1";
+  src: url(../fonts/Switzer-Extralight.ttf);
+}
+
+@font-face {
+  font-family: "font-2";
+  src: url(../fonts/Switzer-Light.ttf);
+}
+
+@font-face {
+  font-family: "font-3";
+  src: url(../fonts/Switzer-Regular.ttf);
+}
+
+@font-face {
+  font-family: "font-4";
+  src: url(../fonts/Switzer-Bold.ttf);
+}
+
+@font-face {
+  font-family: "font-5";
+  src: url(./assets/fonts/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "font-6";
+  src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "font-6";
+  background-color: rgb(16, 16, 16, 1);
+  color: white;
+}
+
+h2 {
+  width: 100 %;
+  font-family: "font-5" ;
+  color: rgb(112, 208, 56, 1);
+  display: flex;
+  justify-content: space-around;
+}
+
+.topArticle {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.article1 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.slider .commande {
+  width: 50%;
+  display: flex;
+}
+
+h3 {
+  font-family: "font-5";
+}
+
+.commande {
+  padding: 0px 10px;
+}
+
+summary {
+  list-style-type: none;
+}
